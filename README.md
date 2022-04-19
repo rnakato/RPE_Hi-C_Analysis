@@ -69,7 +69,7 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 - We used [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) for the differentila analysis.
 
 ### Prerequisites
-- ClusterProfiler (version >= 4.0.5): https://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html
+- ClusterProfiler (version >= 4.0.5): https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html
 
 ### Scripts and data
 
