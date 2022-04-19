@@ -17,6 +17,27 @@ Cohesin plays vital roles in chromatin folding and gene expression regulation, c
 
 The raw sequencing data and processed files of Hi-C, RNA-seq and ChIP-seq data are available at the Gene Expression Omnibus (GEO) under the accession number (GSE196450, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196450).
 
+## Hi-C analysis
+
+The paper used the Docker image `docker_juicer` version 1.5.7. To make the singularity image, type:
+
+    singularity build rnakato_juicer.1.5.7.sif docker://rnakato/juicer:1.5.7
+
+## Spike-in ChIP-seq analysis
+
+- spike-in.sh ... calculate scaling factor for spike-in normalization
+- scalingfactor.txt ... obtained scaling factors by `spike-in.sh`
+- log/bowtie2* ... bowtie2 output (used in `spike-in.sh`)
+- log/drompa+*, log/peakcall* ... log of DROMPAplus
+- count_pval_enrich.sh ... script for Figure S7A
+- parse2wig.sh ... script for generagin bigWig files (each sample, input for DROMPAplus)
+- makewig.sh, makewig.pval.sh ... scripts for generagin bigWig files (pvalue of ChIP/Input)
+- peak.sh ... script for peak calling by DROMPAplus
+- samples/ ... ChIP/Input pair list
+- pdf.sh ... script for makeing pdf files by DROMPAplus
+- regionfile/ ... region file for `pdf.sh`
+- peak_SIMA/ ... input peak files for SIMA analysis
+
 ## Referece
 
 in preparation.
