@@ -1,0 +1,31 @@
+CTCFKD_1	Control_1
+CTCFKD_120h	Control_5
+CTCFKD_2	Control_4
+CTCFKD_626_628	Control_5
+CTCFKD_72h	Control_5
+Control_1
+Control_2
+Control_3
+Control_4
+Control_5
+Control_6
+ESCO1KD_1	Control_2
+ESCO1KD_2	Control_4
+Mau2KD	Control_4
+NIPBLKD_1	Control_1
+NIPBLKD_2	Control_4
+NIPBLKD_24h	Control_3
+NIPBLKD_48h	Control_3
+NIPBLKD_72h	Control_3
+NIPBLKD_si8	Control_3
+NIPBL_Rad21_KD	Control_4
+PDS5ABKD	Control_6
+PDS5AKD_48h	Control_6
+PDS5AKD_72h	Control_6
+PDS5BKD	Control_6
+Rad21KD_1	Control_1
+Rad21KD_2	Control_3
+Rad21KD_3	Control_4
+WAPLKD	Control_6
+JQ1_minus
+JQ1_plus	JQ1_minus

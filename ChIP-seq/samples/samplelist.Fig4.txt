@@ -1,0 +1,4 @@
+2021_010_H3K27ac_IP_Control	2021_010_input_Control	Ct_H3K27ac
+2021_010_H3K36me3_IP_Control	2021_010_input_Control	Ct_H3K36me3
+2021_023_H3K27me3_ab_IP_Control	2021_023_input_Control	Ct_H3K27me3
+2017_034B_Ct_CTCF	2017_034B_Ct_input	Ct_CTCF
