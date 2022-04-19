@@ -66,7 +66,7 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 ## RNA-seq analysis
 
 - We used [STAR](https://github.com/alexdobin/STAR) for read mapping and [RSEM](https://github.com/deweylab/RSEM) to estimate gene expression values.
-- We used [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) for the differentila analysis.
+- We used [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) for the differential analysis.
 
 ### Prerequisites
 - ClusterProfiler (version >= 4.0.5): https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html
