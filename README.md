@@ -62,6 +62,7 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 - pdf.sh ... script for makeing pdf files by DROMPAplus
 - regionfile/ ... region file for `pdf.sh`
 - peak_SIMA/ ... input peak files for SIMA analysis
+- ChromHMM_15_dense.bed ... The output of the extended ChromHMM
 
 ## RNA-seq analysis
 
