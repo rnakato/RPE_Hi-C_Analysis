@@ -1,0 +1,10 @@
+/usr/bin/bowtie2-align-s version 2.3.5.1
+64-bit
+bowtie2 -p12 -x /work/Database/bowtie2-indexes/UCSC-mm10 fastq/2022_003_H3K9me3_IP_NIPBLKD.fastq.gz | samtools view -C - -T /work/Database/bowtie2-indexes/UCSC-mm10.fa | samtools sort -O cram > cram/2022_003_H3K9me3_IP_NIPBLKD-bowtie2-mm10.sort.cram
+45298726 reads; of these:
+  45298726 (100.00%) were unpaired; of these:
+    36686032 (80.99%) aligned 0 times
+    4247214 (9.38%) aligned exactly 1 time
+    4365480 (9.64%) aligned >1 times
+19.01% overall alignment rate
+[bam_sort_core] merging from 13 files and 1 in-memory blocks...

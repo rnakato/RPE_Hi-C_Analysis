@@ -1,0 +1,15 @@
+/opt/bowtie2-2.4.1-linux-x86_64/bowtie2-align-s version 2.4.1
+64-bit
+Built on 
+Fri Feb 28 22:21:25 UTC 2020
+Compiler: gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) 
+Options: -O3 -msse2 -funroll-loops -g3 -g -O2 -fvisibility=hidden -I/hbb_exe_gc_hardened/include -ffunction-sections -fdata-sections -fstack-protector -D_FORTIFY_SOURCE=2 -fPIE -DPOPCNT_CAPABILITY -DWITH_TBB -std=c++11 -DNO_SPINLOCK -DWITH_QUEUELOCK=1
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+singularity exec --bind /work /work/SingularityImages/rnakato_bowtie2.img bowtie2 -p12 -x /work/Database/bowtie2-indexes/UCSC-hg38 /work/sakata/ChIP-seq/RPE/2018_015B/fastq/2018_015B_Ct_CTCF.fastq.gz | samtools view -C - -T /work/Database/bowtie2-indexes/UCSC-hg38.fa | samtools sort -O cram > cram/2018_015B_Ct_CTCF-bowtie2-hg38.sort.cram
+31046037 reads; of these:
+  31046037 (100.00%) were unpaired; of these:
+    8380051 (26.99%) aligned 0 times
+    17588542 (56.65%) aligned exactly 1 time
+    5077444 (16.35%) aligned >1 times
+73.01% overall alignment rate
+[bam_sort_core] merging from 9 files and 1 in-memory blocks...

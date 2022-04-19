@@ -1,0 +1,12 @@
+/usr/bin/bowtie2-align-s version 2.3.5.1
+64-bit
+bowtie2 -p12 -x /work/Database/bowtie2-indexes/UCSC-mm10 fastq/2022_003_H3K9me3_IP_Control.fastq.gz | samtools view -C - -T /work/Database/bowtie2-indexes/UCSC-mm10.fa | samtools sort -O cram > cram/2022_003_H3K9me3_IP_Control-bowtie2-mm10.sort.cram
+[W::cram_populate_ref] Creating reference cache directory /home/rnakato/.cache/hts-ref
+This may become large; see the samtools(1) manual page REF_CACHE discussion
+62893644 reads; of these:
+  62893644 (100.00%) were unpaired; of these:
+    54094229 (86.01%) aligned 0 times
+    4275941 (6.80%) aligned exactly 1 time
+    4523474 (7.19%) aligned >1 times
+13.99% overall alignment rate
+[bam_sort_core] merging from 18 files and 1 in-memory blocks...

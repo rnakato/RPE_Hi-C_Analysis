@@ -1,0 +1,10 @@
+/usr/bin/bowtie2-align-s version 2.3.5.1
+64-bit
+bowtie2 -p12 -x /work/Database/bowtie2-indexes/UCSC-mm10 fastq/2022_003_input_Control.fastq.gz | samtools view -C - -T /work/Database/bowtie2-indexes/UCSC-mm10.fa | samtools sort -O cram > cram/2022_003_input_Control-bowtie2-mm10.sort.cram
+98991493 reads; of these:
+  98991493 (100.00%) were unpaired; of these:
+    86746620 (87.63%) aligned 0 times
+    8749858 (8.84%) aligned exactly 1 time
+    3495015 (3.53%) aligned >1 times
+12.37% overall alignment rate
+[bam_sort_core] merging from 29 files and 1 in-memory blocks...

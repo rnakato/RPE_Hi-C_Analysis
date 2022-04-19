@@ -1,0 +1,276 @@
+
+======================================
+drompa+ version 1.12.1: PC_SHARP
+
+output prefix: Dropbox/drompa_spikein/Penrich.5000
+Genome-table file: /work/Database/UCSC/hg38/genome_table
+
+Samples
+1: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Pol2_Cont-bowtie2-hg38-raw-GR.5000.bw label: Pol2_Cont peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_Cont-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+2: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Pol2_7-bowtie2-hg38-raw-GR.5000.bw label: Pol2_7 peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_7-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+3: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Ser2_Cont-bowtie2-hg38-raw-GR.5000.bw label: Ser2_Cont peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_Cont-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+4: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Ser2_7-bowtie2-hg38-raw-GR.5000.bw label: Ser2_7 peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_7-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+5: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_AFF4_Cont-bowtie2-hg38-raw-GR.5000.bw label: AFF4_Cont peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_Cont-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+6: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_AFF4_7-bowtie2-hg38-raw-GR.5000.bw label: AFF4_7 peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_7-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+7: ChIP: ../ChIP-seq_Bando/parse2wigdir+/FBS_Med1_FBS--bowtie2-hg38-raw-GR.5000.bw label: Med1_Cont peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/FBS_Input_FBS--bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+8: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_H3K36me3_Cont-bowtie2-hg38-raw-GR.5000.bw label: H3K36me3_Cont peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_Cont-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+9: ChIP: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_H3K36me3_7-bowtie2-hg38-raw-GR.5000.bw label: H3K36me3_7 peaklist: 
+   Input: ../ChIP-seq_Bando/parse2wigdir+/NIPBLKD_Input_7-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+10: ChIP: parse2wigdir+/2017_034B_Ct_CTCF-bowtie2-hg38-raw-GR.5000.bw label: Ct_CTCF peaklist: 
+   Input: parse2wigdir+/2017_034B_Ct_input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+11: ChIP: parse2wigdir+/2017_034B_Ct_Rad21-bowtie2-hg38-raw-GR.5000.bw label: Ct_Rad21 peaklist: 
+   Input: parse2wigdir+/2017_034B_Ct_input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+12: ChIP: parse2wigdir+/2017_034B_si7_Rad21-bowtie2-hg38-raw-GR.5000.bw label: si7_Rad21 peaklist: 
+   Input: parse2wigdir+/2017_034B_si7_input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+13: ChIP: parse2wigdir+/2017_034B_si628_Rad21-bowtie2-hg38-raw-GR.5000.bw label: si628_Rad21 peaklist: 
+   Input: parse2wigdir+/2017_034B_si628_input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+14: ChIP: parse2wigdir+/2017_034B_Ct_Mau2-bowtie2-hg38-raw-GR.5000.bw label: Ct_Mau2 peaklist: 
+   Input: parse2wigdir+/2017_034B_Ct_input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+15: ChIP: parse2wigdir+/2017_034B_si7_Mau2-bowtie2-hg38-raw-GR.5000.bw label: si7_Mau2 peaklist: 
+   Input: parse2wigdir+/2017_034B_si7_input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+16: ChIP: parse2wigdir+/2019_004B_SMC3ac_IP-bowtie2-hg38-raw-GR.5000.bw label: Smc3ac peaklist: 
+   Input: parse2wigdir+/2019_004B_ac_input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+17: ChIP: parse2wigdir+/2021_010_H3K4me3_IP_Control-bowtie2-hg38-raw-GR.5000.bw label: Ct_H3K4me3 peaklist: 
+   Input: parse2wigdir+/2021_010_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+18: ChIP: parse2wigdir+/2021_010_H3K4me3_IP_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw label: H3K4me3_NIPBLKD peaklist: 
+   Input: parse2wigdir+/2021_010_input_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+19: ChIP: parse2wigdir+/2021_010_H3K4me3_IP_RAD21KD-bowtie2-hg38-raw-GR.5000.bw label: H3K4me3_RAD21KD peaklist: 
+   Input: parse2wigdir+/2021_010_input_RAD21KD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+20: ChIP: parse2wigdir+/2021_010_H3K27ac_IP_Control-bowtie2-hg38-raw-GR.5000.bw label: Ct_H3K27ac peaklist: 
+   Input: parse2wigdir+/2021_010_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+21: ChIP: parse2wigdir+/2021_010_H3K27ac_IP_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw label: H3K27ac_NIPBLKD peaklist: 
+   Input: parse2wigdir+/2021_010_input_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+22: ChIP: parse2wigdir+/2021_010_H3K27ac_IP_RAD21KD-bowtie2-hg38-raw-GR.5000.bw label: H3K27ac_RAD21KD peaklist: 
+   Input: parse2wigdir+/2021_010_input_RAD21KD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+23: ChIP: parse2wigdir+/2021_010_H3K27me3_IP_Control-bowtie2-hg38-raw-GR.5000.bw label: Ct_H3K27me3 peaklist: 
+   Input: parse2wigdir+/2021_010_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+24: ChIP: parse2wigdir+/2021_010_H3K27me3_IP_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw label: H3K27me3_NIPBLKD peaklist: 
+   Input: parse2wigdir+/2021_010_input_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+25: ChIP: parse2wigdir+/2021_010_H3K27me3_IP_RAD21KD-bowtie2-hg38-raw-GR.5000.bw label: H3K27me3_RAD21KD peaklist: 
+   Input: parse2wigdir+/2021_010_input_RAD21KD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+26: ChIP: parse2wigdir+/2021_010_H3K36me3_IP_Control-bowtie2-hg38-raw-GR.5000.bw label: Ct_H3K36me3 peaklist: 
+   Input: parse2wigdir+/2021_010_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+27: ChIP: parse2wigdir+/2021_010_H3K36me3_IP_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw label: H3K36me3_NIPBLKD peaklist: 
+   Input: parse2wigdir+/2021_010_input_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+28: ChIP: parse2wigdir+/2021_010_H3K36me3_IP_RAD21KD-bowtie2-hg38-raw-GR.5000.bw label: H3K36me3_NIPBLKD peaklist: 
+   Input: parse2wigdir+/2021_010_input_RAD21KD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+29: ChIP: parse2wigdir+/2021_023_H3K27me3_ab_IP_Control-bowtie2-hg38-raw-GR.5000.bw label: H3K27me3_Control_023 peaklist: 
+   Input: parse2wigdir+/2021_023_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+30: ChIP: parse2wigdir+/2021_023_H3K27me3_ab_IP_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw label: H3K27me3_NIPBLKD_023 peaklist: 
+   Input: parse2wigdir+/2021_023_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+31: ChIP: parse2wigdir+/2021_023_H3K27me3_ab_IP_RAD21KD-bowtie2-hg38-raw-GR.5000.bw label: H3K27me3_RAD21KD_023 peaklist: 
+   Input: parse2wigdir+/2021_023_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+32: ChIP: parse2wigdir+/2022_003_H3K9me3_IP_Control-bowtie2-hg38-raw-GR.5000.bw label: H3K9me3_Control peaklist: 
+   Input: parse2wigdir+/2022_003_input_Control-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+33: ChIP: parse2wigdir+/2022_003_H3K9me3_IP_RAD21KD-bowtie2-hg38-raw-GR.5000.bw label: H3K9me3_RAD21KD peaklist: 
+   Input: parse2wigdir+/2022_003_input_RAD21KD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+34: ChIP: parse2wigdir+/2022_003_H3K9me3_IP_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw label: H3K9me3_NIPBLKD peaklist: 
+   Input: parse2wigdir+/2022_003_input_NIPBLKD-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+35: ChIP: ../GSM4977021_LaminB1_Hetero/parse2wigdir+/RPE_ChIP_H3K9me3_Rep1-bowtie2-hg38-raw-GR.5000.bw label: H3K9me3 peaklist: 
+   Input: ../GSM4977021_LaminB1_Hetero/parse2wigdir+/RPE_ChIP_Input-bowtie2-hg38-raw-GR.5000.bw
+   binsize: 5000
+   ChIP/Input normalization: OFF
+   smoothing width: 5 bins
+
+Annotations:
+   Gene file: /work/Database/Ensembl/GRCh38/release101/gtf_chrUCSC/Homo_sapiens.GRCh38.101.chr.proteincoding.gene.refFlat, Format: refFlat
+   Bed file 1: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/Control_merge/VC_SQRT/25000_blocks.TADregions.bed,TADregion
+   Bed file 2: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Analysis/06_TAD_annotation/TAD/withspikein.5000.2021_010_H3K36me3.peakcoverageover0.4.tsv,spikein.5000.2021_010_H3K36me3TAD
+   Bed file 3: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Analysis/06_TAD_annotation/TAD/withspikein.5000.2021_023_H3K27me3_ab.peakcoverageover0.4.tsv,spikein.5000.2021_023_H3K27me3_abTAD
+   Bed file 4: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Analysis/06_TAD_annotation/TAD/withH3K9me3.peakcoverageover0.4.tsv,H3K9me3TAD
+   Bed file 5: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Analysis/06_TAD_annotation/TAD/withSer2.peakcoverageover0.4.tsv,Ser2TAD
+   Bed file 6: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Analysis/06_TAD_annotation/TAD/withspikein.5000.2021_010_H3K27ac.peakcoverageover0.3.tsv,spikein.5000.2021_010_H3K27acTAD
+   Bed file 7: ../ChIP-seq_Bando/rose/NIPBLKD_SuperEnhancers.table.bed,SEBando
+   Bed file 8: rose/spikein_SuperEnhancers.table.bed,SE
+   Bed file 9: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-CTCF.up.bed,CTCFup
+   Bed file 10: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-CTCF.down.bed,CTCFdown
+   Bed file 11: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-Rad21_d3.up.bed,Rad21_d3up
+   Bed file 12: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-Rad21_d3.down.bed,Rad21_d3down
+   Bed file 13: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-NIPBL7_d3.up.bed,NIPBL7_d3up
+   Bed file 14: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-NIPBL7_d3.down.bed,NIPBL7_d3down
+   Bed file 15: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-Rad21_NIPBL.up.bed,Rad21_NIPBLup
+   Bed file 16: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-Rad21_NIPBL.down.bed,Rad21_NIPBLdown
+   Bed file 17: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-Mau2.up.bed,Mau2up
+   Bed file 18: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-Mau2.down.bed,Mau2down
+   Bed file 19: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-WAPL.up.bed,WAPLup
+   Bed file 20: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-WAPL.down.bed,WAPLdown
+   Bed file 21: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-PDS5A.up.bed,PDS5Aup
+   Bed file 22: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-PDS5A.down.bed,PDS5Adown
+   Bed file 23: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-PDS5B.up.bed,PDS5Bup
+   Bed file 24: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-PDS5B.down.bed,PDS5Bdown
+   Bed file 25: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-PDS5AB.up.bed,PDS5ABup
+   Bed file 26: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-PDS5AB.down.bed,PDS5ABdown
+   Bed file 27: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-ESCO1.up.bed,ESCO1up
+   Bed file 28: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-ESCO1.down.bed,ESCO1down
+   Bed file 29: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-JQ1.up.bed,JQ1up
+   Bed file 30: /home/rnakato/Dropbox/Cohesin/RPE/Sakata_RNA-seq/DESeq2/top1000/Ct-JQ1.down.bed,JQ1down
+   Bed file 31: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/Control_merge/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.Control_merge
+   Bed file 32: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/CTCFKD_merge/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.CTCFKD_merge
+   Bed file 33: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/Rad21KD_merge/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.Rad21KD_merge
+   Bed file 34: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/NIPBLKD_merge/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.NIPBLKD_merge
+   Bed file 35: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/Mau2KD/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.Mau2KD
+   Bed file 36: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/ESCO1KD_merge/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.ESCO1KD_merge
+   Bed file 37: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/NIPBL_Rad21_KD/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.NIPBL_Rad21_KD
+   Bed file 38: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/WAPLKD/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.WAPLKD
+   Bed file 39: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/PDS5AKD_72h/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.PDS5AKD_72h
+   Bed file 40: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/PDS5BKD/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.PDS5BKD
+   Bed file 41: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/TAD/JQ1_plus/VC_SQRT/25000_blocks.boundaries.bed,bdryJuicer.JQ1_plus
+   Bed file 42: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/Control_merge/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_Control_merge
+   Bed file 43: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/CTCFKD_merge/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_CTCFKD_merge
+   Bed file 44: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/Rad21KD_merge/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_Rad21KD_merge
+   Bed file 45: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/NIPBLKD_merge/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_NIPBLKD_merge
+   Bed file 46: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/Mau2KD/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_Mau2KD
+   Bed file 47: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/ESCO1KD_merge/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_ESCO1KD_merge
+   Bed file 48: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/NIPBL_Rad21_KD/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_NIPBL_Rad21_KD
+   Bed file 49: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/WAPLKD/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_WAPLKD
+   Bed file 50: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/PDS5AKD_72h/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_PDS5AKD_72h
+   Bed file 51: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/PDS5BKD/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_PDS5BKD
+   Bed file 52: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/JQ1_plus/VC_SQRT/Boundary.genome.100k.25000.thre0.7.bed,is100k_JQ1_plus
+   Bed file 53: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/Control_merge/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_Control_merge
+   Bed file 54: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/CTCFKD_merge/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_CTCFKD_merge
+   Bed file 55: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/Rad21KD_merge/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_Rad21KD_merge
+   Bed file 56: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/NIPBLKD_merge/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_NIPBLKD_merge
+   Bed file 57: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/Mau2KD/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_Mau2KD
+   Bed file 58: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/ESCO1KD_merge/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_ESCO1KD_merge
+   Bed file 59: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/NIPBL_Rad21_KD/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_NIPBL_Rad21_KD
+   Bed file 60: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/WAPLKD/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_WAPLKD
+   Bed file 61: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/PDS5AKD_72h/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_PDS5AKD_72h
+   Bed file 62: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/PDS5BKD/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_PDS5BKD
+   Bed file 63: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/InsulationScore/JQ1_plus/VC_SQRT/Boundary.genome.1M.25000.thre0.7.bed,is1M_JQ1_plus
+   Interaction file 1: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/Control_merge/VC_SQRT/merged_loops.bedpe,Control_merge
+   Interaction file 2: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/CTCFKD_merge/VC_SQRT/merged_loops.bedpe,CTCFKD_merge
+   Interaction file 3: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/Rad21KD_merge/VC_SQRT/merged_loops.bedpe,Rad21KD_merge
+   Interaction file 4: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/NIPBLKD_merge/VC_SQRT/merged_loops.bedpe,NIPBLKD_merge
+   Interaction file 5: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/Mau2KD/VC_SQRT/merged_loops.bedpe,Mau2KD
+   Interaction file 6: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/ESCO1KD_merge/VC_SQRT/merged_loops.bedpe,ESCO1KD_merge
+   Interaction file 7: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/NIPBL_Rad21_KD/VC_SQRT/merged_loops.bedpe,NIPBL_Rad21_KD
+   Interaction file 8: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/WAPLKD/VC_SQRT/merged_loops.bedpe,WAPLKD
+   Interaction file 9: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/PDS5AKD_72h/VC_SQRT/merged_loops.bedpe,PDS5AKD_72h
+   Interaction file 10: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/PDS5BKD/VC_SQRT/merged_loops.bedpe,PDS5BKD
+   Interaction file 11: /home/rnakato/Dropbox/Cohesin/RPE/Hi-C/Loop/JQ1_plus/VC_SQRT/merged_loops.bedpe,JQ1_plus
+
+Figure parameter:
+   Display read: ChIP OFF, Input OFF, y-axis scale: 200
+   Display enrichment: OFF, y-axis scale: 3
+   Display pvalue (internal): OFF, y-axis scale: 3
+   Display pvalue (ChIP/Input): ON, y-axis scale: 3
+   Width per line: 8000 kbp
+   Y-axis label: ON
+   Y-axis memory: ON
+   Output format: PDF
+======================================
+chr1: Load sample data..Drawing..
+   page     1/   32   page     2/   32   page     3/   32   page     4/   32   page     5/   32   page     6/   32   page     7/   32   page     8/   32   page     9/   32   page    10/   32   page    11/   32   page    12/   32   page    13/   32   page    14/   32   page    15/   32   page    16/   32   page    17/   32   page    18/   32   page    19/   32   page    20/   32   page    21/   32   page    22/   32   page    23/   32   page    24/   32   page    25/   32   page    26/   32   page    27/   32   page    28/   32   page    29/   32   page    30/   32   page    31/   32   page    32/   32
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr1.pdf"
+chr2: Load sample data..Drawing..
+   page     1/   31   page     2/   31   page     3/   31   page     4/   31   page     5/   31   page     6/   31   page     7/   31   page     8/   31   page     9/   31   page    10/   31   page    11/   31   page    12/   31   page    13/   31   page    14/   31   page    15/   31   page    16/   31   page    17/   31   page    18/   31   page    19/   31   page    20/   31   page    21/   31   page    22/   31   page    23/   31   page    24/   31   page    25/   31   page    26/   31   page    27/   31   page    28/   31   page    29/   31   page    30/   31   page    31/   31
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr2.pdf"
+chr3: Load sample data..Drawing..
+   page     1/   25   page     2/   25   page     3/   25   page     4/   25   page     5/   25   page     6/   25   page     7/   25   page     8/   25   page     9/   25   page    10/   25   page    11/   25   page    12/   25   page    13/   25   page    14/   25   page    15/   25   page    16/   25   page    17/   25   page    18/   25   page    19/   25   page    20/   25   page    21/   25   page    22/   25   page    23/   25   page    24/   25   page    25/   25
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr3.pdf"
+chr4: Load sample data..Drawing..
+   page     1/   24   page     2/   24   page     3/   24   page     4/   24   page     5/   24   page     6/   24   page     7/   24   page     8/   24   page     9/   24   page    10/   24   page    11/   24   page    12/   24   page    13/   24   page    14/   24   page    15/   24   page    16/   24   page    17/   24   page    18/   24   page    19/   24   page    20/   24   page    21/   24   page    22/   24   page    23/   24   page    24/   24
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr4.pdf"
+chr5: Load sample data..Drawing..
+   page     1/   23   page     2/   23   page     3/   23   page     4/   23   page     5/   23   page     6/   23   page     7/   23   page     8/   23   page     9/   23   page    10/   23   page    11/   23   page    12/   23   page    13/   23   page    14/   23   page    15/   23   page    16/   23   page    17/   23   page    18/   23   page    19/   23   page    20/   23   page    21/   23   page    22/   23   page    23/   23
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr5.pdf"
+chr6: Load sample data..Drawing..
+   page     1/   22   page     2/   22   page     3/   22   page     4/   22   page     5/   22   page     6/   22   page     7/   22   page     8/   22   page     9/   22   page    10/   22   page    11/   22   page    12/   22   page    13/   22   page    14/   22   page    15/   22   page    16/   22   page    17/   22   page    18/   22   page    19/   22   page    20/   22   page    21/   22   page    22/   22
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr6.pdf"
+chr7: Load sample data..Drawing..
+   page     1/   20   page     2/   20   page     3/   20   page     4/   20   page     5/   20   page     6/   20   page     7/   20   page     8/   20   page     9/   20   page    10/   20   page    11/   20   page    12/   20   page    13/   20   page    14/   20   page    15/   20   page    16/   20   page    17/   20   page    18/   20   page    19/   20   page    20/   20
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr7.pdf"
+chr8: Load sample data..Drawing..
+   page     1/   19   page     2/   19   page     3/   19   page     4/   19   page     5/   19   page     6/   19   page     7/   19   page     8/   19   page     9/   19   page    10/   19   page    11/   19   page    12/   19   page    13/   19   page    14/   19   page    15/   19   page    16/   19   page    17/   19   page    18/   19   page    19/   19
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr8.pdf"
+chr9: Load sample data..Drawing..
+   page     1/   18   page     2/   18   page     3/   18   page     4/   18   page     5/   18   page     6/   18   page     7/   18   page     8/   18   page     9/   18   page    10/   18   page    11/   18   page    12/   18   page    13/   18   page    14/   18   page    15/   18   page    16/   18   page    17/   18   page    18/   18
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr9.pdf"
+chr10: Load sample data..Drawing..
+   page     1/   17   page     2/   17   page     3/   17   page     4/   17   page     5/   17   page     6/   17   page     7/   17   page     8/   17   page     9/   17   page    10/   17   page    11/   17   page    12/   17   page    13/   17   page    14/   17   page    15/   17   page    16/   17   page    17/   17
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr10.pdf"
+chr11: Load sample data..Drawing..
+   page     1/   17   page     2/   17   page     3/   17   page     4/   17   page     5/   17   page     6/   17   page     7/   17   page     8/   17   page     9/   17   page    10/   17   page    11/   17   page    12/   17   page    13/   17   page    14/   17   page    15/   17   page    16/   17   page    17/   17
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr11.pdf"
+chr12: Load sample data..Drawing..
+   page     1/   17   page     2/   17   page     3/   17   page     4/   17   page     5/   17   page     6/   17   page     7/   17   page     8/   17   page     9/   17   page    10/   17   page    11/   17   page    12/   17   page    13/   17   page    14/   17   page    15/   17   page    16/   17   page    17/   17
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr12.pdf"
+chr13: Load sample data..Drawing..
+   page     1/   15   page     2/   15   page     3/   15   page     4/   15   page     5/   15   page     6/   15   page     7/   15   page     8/   15   page     9/   15   page    10/   15   page    11/   15   page    12/   15   page    13/   15   page    14/   15   page    15/   15
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr13.pdf"
+chr14: Load sample data..Drawing..
+   page     1/   14   page     2/   14   page     3/   14   page     4/   14   page     5/   14   page     6/   14   page     7/   14   page     8/   14   page     9/   14   page    10/   14   page    11/   14   page    12/   14   page    13/   14   page    14/   14
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr14.pdf"
+chr15: Load sample data..Drawing..
+   page     1/   13   page     2/   13   page     3/   13   page     4/   13   page     5/   13   page     6/   13   page     7/   13   page     8/   13   page     9/   13   page    10/   13   page    11/   13   page    12/   13   page    13/   13
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr15.pdf"
+chr16: Load sample data..Drawing..
+   page     1/   12   page     2/   12   page     3/   12   page     4/   12   page     5/   12   page     6/   12   page     7/   12   page     8/   12   page     9/   12   page    10/   12   page    11/   12   page    12/   12
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr16.pdf"
+chr17: Load sample data..Drawing..
+   page     1/   11   page     2/   11   page     3/   11   page     4/   11   page     5/   11   page     6/   11   page     7/   11   page     8/   11   page     9/   11   page    10/   11   page    11/   11
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr17.pdf"
+chr18: Load sample data..Drawing..
+   page     1/   11   page     2/   11   page     3/   11   page     4/   11   page     5/   11   page     6/   11   page     7/   11   page     8/   11   page     9/   11   page    10/   11   page    11/   11
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr18.pdf"
+chr19: Load sample data..Drawing..
+   page     1/    8   page     2/    8   page     3/    8   page     4/    8   page     5/    8   page     6/    8   page     7/    8   page     8/    8
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr19.pdf"
+chr20: Load sample data..Drawing..
+   page     1/    9   page     2/    9   page     3/    9   page     4/    9   page     5/    9   page     6/    9   page     7/    9   page     8/    9   page     9/    9
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr20.pdf"
+chr21: Load sample data..Drawing..
+   page     1/    6   page     2/    6   page     3/    6   page     4/    6   page     5/    6   page     6/    6
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr21.pdf"
+chr22: Load sample data..Drawing..
+   page     1/    7   page     2/    7   page     3/    7   page     4/    7   page     5/    7   page     6/    7   page     7/    7
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chr22.pdf"
+chrX: Load sample data..Drawing..
+   page     1/   20   page     2/   20   page     3/   20   page     4/   20   page     5/   20   page     6/   20   page     7/   20   page     8/   20   page     9/   20   page    10/   20   page    11/   20   page    12/   20   page    13/   20   page    14/   20   page    15/   20   page    16/   20   page    17/   20   page    18/   20   page    19/   20   page    20/   20
+Wrote PDF file "Dropbox/drompa_spikein/Penrich.5000_chrX.pdf"
+Merge PDF files "cpdf Dropbox/drompa_spikein/Penrich.5000_chr1.pdf Dropbox/drompa_spikein/Penrich.5000_chr2.pdf Dropbox/drompa_spikein/Penrich.5000_chr3.pdf Dropbox/drompa_spikein/Penrich.5000_chr4.pdf Dropbox/drompa_spikein/Penrich.5000_chr5.pdf Dropbox/drompa_spikein/Penrich.5000_chr6.pdf Dropbox/drompa_spikein/Penrich.5000_chr7.pdf Dropbox/drompa_spikein/Penrich.5000_chr8.pdf Dropbox/drompa_spikein/Penrich.5000_chr9.pdf Dropbox/drompa_spikein/Penrich.5000_chr10.pdf Dropbox/drompa_spikein/Penrich.5000_chr11.pdf Dropbox/drompa_spikein/Penrich.5000_chr12.pdf Dropbox/drompa_spikein/Penrich.5000_chr13.pdf Dropbox/drompa_spikein/Penrich.5000_chr14.pdf Dropbox/drompa_spikein/Penrich.5000_chr15.pdf Dropbox/drompa_spikein/Penrich.5000_chr16.pdf Dropbox/drompa_spikein/Penrich.5000_chr17.pdf Dropbox/drompa_spikein/Penrich.5000_chr18.pdf Dropbox/drompa_spikein/Penrich.5000_chr19.pdf Dropbox/drompa_spikein/Penrich.5000_chr20.pdf Dropbox/drompa_spikein/Penrich.5000_chr21.pdf Dropbox/drompa_spikein/Penrich.5000_chr22.pdf Dropbox/drompa_spikein/Penrich.5000_chrX.pdf  -o Dropbox/drompa_spikein/Penrich.5000.pdf"
+For non-commercial use only
+To purchase a license visit http://www.coherentpdf.com/
+
