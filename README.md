@@ -15,7 +15,9 @@ Cohesin plays vital roles in chromatin folding and gene expression regulation, c
 
 ## Data
 
-The raw sequencing data and processed files of Hi-C, RNA-seq and ChIP-seq data are available at the Gene Expression Omnibus (GEO) under the accession number (GSE196450, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196450).
+The raw sequencing data and processed files of Hi-C, RNA-seq and ChIP-seq data are available at the Gene Expression Omnibus (GEO).
+
+- GSE196450: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196450
 
 ## Hi-C analysis
 
