@@ -38,8 +38,6 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 - Juicer/ ... Scripts for applying Juicer to each sample (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
 - Juicer_merged/ ... Scripts for applying Juicer to merged samples (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
 
-
-
 ## Spike-in ChIP-seq analysis
 
 - We used [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) for mapping reads and converted the output to [the CRAM format](https://www.ga4gh.org/cram/).
@@ -64,6 +62,18 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 - pdf.sh ... script for makeing pdf files by DROMPAplus
 - regionfile/ ... region file for `pdf.sh`
 - peak_SIMA/ ... input peak files for SIMA analysis
+
+## RNA-seq analysis
+
+- We used [STAR](https://github.com/alexdobin/STAR) for read mapping and [RSEM](https://github.com/deweylab/RSEM) to estimate gene expression values.
+- We used [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) for the differentila analysis.
+
+### Prerequisites
+- ClusterProfiler (version >= 4.0.5): https://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html
+
+### Scripts and data
+
+- GOanalysis/ ... scripts for GO analysis using ClusterProfiler
 
 ## Referece
 
