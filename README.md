@@ -19,9 +19,22 @@ The raw sequencing data and processed files of Hi-C, RNA-seq and ChIP-seq data a
 
 ## Hi-C analysis
 
+### Prerequisites
+
+- 3DChromatin_ReplicateQC: https://github.com/kundajelab/3DChromatin_ReplicateQC
+- docker_juicer: https://github.com/rnakato/docker_juicer
+- Singularity (version >= 3.6.4): https://sylabs.io/singularity
+
 The paper used the Docker image `docker_juicer` version 1.5.7. To make the singularity image, type:
 
     singularity build rnakato_juicer.1.5.7.sif docker://rnakato/juicer:1.5.7
+
+### Scripts and data
+
+- 3DChromatin_ReplicateQC/ ... script and data for quality assessment using 
+- 4dn.cooler.sh ... script for Cooler (using [4dn-hic docker image](https://hub.docker.com/r/duplexa/4dn-hic/))
+- Juicer/ ... Scripts for applying Juicer to each sample (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
+- Juicer_merged/ ... Scripts for applying Juicer to merged samples (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
 
 ## Spike-in ChIP-seq analysis
 
@@ -38,7 +51,7 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 - spike-in.sh ... calculate scaling factor for spike-in normalization
 - scalingfactor.txt ... obtained scaling factors by `spike-in.sh`
 - log/bowtie2* ... bowtie2 output (used in `spike-in.sh`)
-- log/drompa+*, log/peakcall* ... log of DROMPAplus
+- log/drompa+\*, log/peakcall\* ... log of DROMPAplus
 - count_pval_enrich.sh ... script for Figure S7A
 - parse2wig.sh ... script for generagin bigWig files (each sample, input for DROMPAplus)
 - makewig.sh, makewig.pval.sh ... scripts for generagin bigWig files (pvalue of ChIP/Input)
