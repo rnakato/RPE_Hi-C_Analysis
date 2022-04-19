@@ -1,8 +1,8 @@
-# Context-dependent 3D genome regulation by cohesin and related factors 
+# Context-dependent 3D genome regulation by cohesin and related factors
 
 ## Authors
 
-Ryuichiro Nakato1,§, Toyonori Sakata2,§, Jiankang Wang1, Luis Augusto Eijy Nagai1, 
+Ryuichiro Nakato1,§, Toyonori Sakata2,§, Jiankang Wang1, Luis Augusto Eijy Nagai1,
 Gina Miku Oba1, Masashige Bando2 and Katsuhiko Shirahige2
 
 - 1 Laboratory of Computational Genomics, Institute for Quantitative Biosciences, University of Tokyo, 1-1-1 Yayoi, Bunkyo-Ku, Tokyo 113-0032, Japan.
@@ -33,10 +33,12 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 
 ### Scripts and data
 
-- 3DChromatin_ReplicateQC/ ... script and data for quality assessment using 
+- 3DChromatin_ReplicateQC/ ... script and data for quality assessment using
 - 4dn.cooler.sh ... script for Cooler (using [4dn-hic docker image](https://hub.docker.com/r/duplexa/4dn-hic/))
 - Juicer/ ... Scripts for applying Juicer to each sample (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
 - Juicer_merged/ ... Scripts for applying Juicer to merged samples (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
+
+
 
 ## Spike-in ChIP-seq analysis
 
@@ -66,5 +68,3 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 ## Referece
 
 in preparation.
-
-
