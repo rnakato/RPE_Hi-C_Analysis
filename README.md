@@ -42,7 +42,7 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 ## Spike-in ChIP-seq analysis
 
 - We used [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) for mapping reads and converted the output to [the CRAM format](https://www.ga4gh.org/cram/).
-- The CRAM files were converted to bigWig files by parse2wig+ (included in DROMPAplus) with spike-in normalization.
+- The CRAM files were converted to bigWig files by parse2wig+ (included in [DROMPAplus](https://github.com/rnakato/DROMPAplus)) with spike-in normalization.
 
 ### Prerequisites
 
