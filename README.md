@@ -77,6 +77,7 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 
 - RSEM_DESeq2/ ... Results of differential expression analysis by RSEM and DESeq2
 - GOanalysis/ ... scripts for GO analysis using ClusterProfiler
+- Notebook/ ... Jupyter notebooks for generating Figures for the manuscript
 
 ## Referece
 
