@@ -37,6 +37,7 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 - 4dn.cooler.sh ... script for Cooler (using [4dn-hic docker image](https://hub.docker.com/r/duplexa/4dn-hic/))
 - Juicer/ ... Scripts for applying Juicer to each sample (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
 - Juicer_merged/ ... Scripts for applying Juicer to merged samples (see [docker_juicer](https://github.com/rnakato/docker_juicer) for details)
+- Notebook/ ... Jupyter notebooks for generating Figures for the manuscript
 
 ## Spike-in ChIP-seq analysis
 
