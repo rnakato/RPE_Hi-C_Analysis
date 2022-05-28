@@ -80,5 +80,4 @@ The paper used the Docker image `docker_juicer` version 1.5.7. To make the singu
 - Notebook/ ... Jupyter notebooks for generating Figures for the manuscript
 
 ## Referece
-
-in preparation.
+Nakato R, Sakata T, Wang J, Nagai LAE, Oba GM, Bando M, Shirahige K, [Context-dependent 3D genome regulation by cohesin and related factors](https://www.biorxiv.org/content/10.1101/2022.05.24.493188v1), *bioRxiv*, 2022. doi: 10.1101/2022.05.24.493188
