@@ -26,6 +26,7 @@ The raw sequencing data and processed files of Hi-C, RNA-seq and ChIP-seq data a
 - 3DChromatin_ReplicateQC: https://github.com/kundajelab/3DChromatin_ReplicateQC
 - docker_juicer (version >= 1.5.7): https://github.com/rnakato/docker_juicer
 - Singularity (version >= 3.6.4): https://sylabs.io/singularity
+- HiC1Dmetrics (version >= 0.2.1): https://h1d.readthedocs.io/en/latest/
 
 The paper used the Docker image `docker_juicer` version 1.5.7. To make the singularity image, type:
 
